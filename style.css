@@ -1,18 +1,19 @@
 body {
     background: black;
-    color: turquoise
+    color: seashell;
+
 }
 .clock {
 	position: absolute;
-	top: 20%;
-	left: 40%;
+	top: 10%;
+	left: 50%;
 	transform: translateX(-50%) translateY(50%);
-	font-size: 60px;
+	font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	letter-spacing: 7px;
 }
 .glow {
-    font-size: 80px;
+    font-size: 40px;
     color: white;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
@@ -26,3 +27,12 @@ body {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+#countdown {
+    color: red;
+    font-weight: bold;
+}
+ 
+ 
+ 
+ 
+ 
