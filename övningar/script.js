@@ -19,3 +19,4 @@ btnAccept.style.padding = '8px 4px';
 
 let myCity = 'Chicago';
 console.log(`My name is ${myName}. My favorite city is ${myCity}`);
+
