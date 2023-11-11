@@ -1,0 +1,9 @@
+body {
+    background-color: hotpink;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: brown;
+    }
+}
